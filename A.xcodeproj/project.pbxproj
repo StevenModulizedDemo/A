@@ -13,6 +13,7 @@
 		B014E7D621EDEFDA00026392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B014E7D521EDEFDA00026392 /* Assets.xcassets */; };
 		B014E7D921EDEFDA00026392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B014E7D721EDEFDA00026392 /* LaunchScreen.storyboard */; };
 		B014E7DC21EDEFDA00026392 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B014E7DB21EDEFDA00026392 /* main.m */; };
+		B0C31D5821EF269800BA26BB /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C31D5721EF269800BA26BB /* Target_A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B014E7D821EDEFDA00026392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B014E7DA21EDEFDA00026392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B014E7DB21EDEFDA00026392 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0C31D5621EF269800BA26BB /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		B0C31D5721EF269800BA26BB /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		B014E7CB21EDEFDA00026392 /* A */ = {
 			isa = PBXGroup;
 			children = (
+				B0C31D5521EF265D00BA26BB /* Targets */,
 				B014E7CC21EDEFDA00026392 /* AppDelegate.h */,
 				B014E7CD21EDEFDA00026392 /* AppDelegate.m */,
 				B014E7CF21EDEFDA00026392 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				B014E7DB21EDEFDA00026392 /* main.m */,
 			);
 			path = A;
+			sourceTree = "<group>";
+		};
+		B0C31D5521EF265D00BA26BB /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				B0C31D5621EF269800BA26BB /* Target_A.h */,
+				B0C31D5721EF269800BA26BB /* Target_A.m */,
+			);
+			name = Targets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C31D5821EF269800BA26BB /* Target_A.m in Sources */,
 				B014E7D121EDEFDA00026392 /* ViewController.m in Sources */,
 				B014E7DC21EDEFDA00026392 /* main.m in Sources */,
 				B014E7CE21EDEFDA00026392 /* AppDelegate.m in Sources */,
