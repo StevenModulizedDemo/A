@@ -10,6 +10,8 @@
 
 @interface AViewController : UIViewController
 
+@property(nonatomic, strong) IBOutlet UILabel *aLabel;
+@property(nonatomic, strong) IBOutlet UIButton *aButton;
 
 @end
 

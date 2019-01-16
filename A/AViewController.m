@@ -22,23 +22,26 @@
     self.view.autoresizingMask = NO;
     self.view.translatesAutoresizingMaskIntoConstraints = NO;
     
-    UILabel *label = [[UILabel alloc] init];
-    label.text = @"Hello World!";
-    label.font = [UIFont systemFontOfSize:15.0];
-    label.textColor = [UIColor blueColor];
-    label.translatesAutoresizingMaskIntoConstraints = NO;
-    [self.view addSubview:label];
-    
-    NSLayoutConstraint *cst1 = [NSLayoutConstraint constraintWithItem:label attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:0];
-    NSLayoutConstraint *cst2 = [NSLayoutConstraint constraintWithItem:label attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:0];
-    NSLayoutConstraint *cst3 = [NSLayoutConstraint constraintWithItem:label attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeHeight multiplier:1.0 constant:30];
-    [self.view addConstraint:cst1];
-    [self.view addConstraint:cst2];
-    [self.view addConstraint:cst3];
+//    UILabel *label = [[UILabel alloc] init];
+//    label.text = @"Hello World!";
+//    label.font = [UIFont systemFontOfSize:15.0];
+//    label.textColor = [UIColor blueColor];
+//    label.translatesAutoresizingMaskIntoConstraints = NO;
+//    [self.view addSubview:label];
+//
+//    NSLayoutConstraint *cst1 = [NSLayoutConstraint constraintWithItem:label attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:0];
+//    NSLayoutConstraint *cst2 = [NSLayoutConstraint constraintWithItem:label attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:0];
+//    NSLayoutConstraint *cst3 = [NSLayoutConstraint constraintWithItem:label attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeHeight multiplier:1.0 constant:30];
+//    [self.view addConstraint:cst1];
+//    [self.view addConstraint:cst2];
+//    [self.view addConstraint:cst3];
     
     NSLog(@"A Load");
 }
 
+- (IBAction)onClick:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
