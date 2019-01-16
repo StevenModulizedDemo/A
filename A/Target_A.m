@@ -7,13 +7,13 @@
 //
 
 #import "Target_A.h"
-#import "ViewController.h"
+#import "AViewController.h"
 
 @implementation Target_A
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params
 {
-    ViewController *aViewController = [[ViewController alloc] init];
+    AViewController *aViewController = [[AViewController alloc] init];
     return aViewController;
 }
 

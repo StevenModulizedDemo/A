@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B014E7CE21EDEFDA00026392 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B014E7CD21EDEFDA00026392 /* AppDelegate.m */; };
-		B014E7D121EDEFDA00026392 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B014E7D021EDEFDA00026392 /* ViewController.m */; };
+		B014E7CE21EDEFDA00026392 /* AAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B014E7CD21EDEFDA00026392 /* AAppDelegate.m */; };
+		B014E7D121EDEFDA00026392 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B014E7D021EDEFDA00026392 /* AViewController.m */; };
 		B014E7D421EDEFDA00026392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B014E7D221EDEFDA00026392 /* Main.storyboard */; };
 		B014E7D621EDEFDA00026392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B014E7D521EDEFDA00026392 /* Assets.xcassets */; };
 		B014E7D921EDEFDA00026392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B014E7D721EDEFDA00026392 /* LaunchScreen.storyboard */; };
@@ -18,10 +18,10 @@
 
 /* Begin PBXFileReference section */
 		B014E7C921EDEFDA00026392 /* A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B014E7CC21EDEFDA00026392 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B014E7CD21EDEFDA00026392 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B014E7CF21EDEFDA00026392 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B014E7D021EDEFDA00026392 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B014E7CC21EDEFDA00026392 /* AAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAppDelegate.h; sourceTree = "<group>"; };
+		B014E7CD21EDEFDA00026392 /* AAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAppDelegate.m; sourceTree = "<group>"; };
+		B014E7CF21EDEFDA00026392 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		B014E7D021EDEFDA00026392 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		B014E7D321EDEFDA00026392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B014E7D521EDEFDA00026392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B014E7D821EDEFDA00026392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,10 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				B0C31D5521EF265D00BA26BB /* Targets */,
-				B014E7CC21EDEFDA00026392 /* AppDelegate.h */,
-				B014E7CD21EDEFDA00026392 /* AppDelegate.m */,
-				B014E7CF21EDEFDA00026392 /* ViewController.h */,
-				B014E7D021EDEFDA00026392 /* ViewController.m */,
+				B014E7CC21EDEFDA00026392 /* AAppDelegate.h */,
+				B014E7CD21EDEFDA00026392 /* AAppDelegate.m */,
+				B014E7CF21EDEFDA00026392 /* AViewController.h */,
+				B014E7D021EDEFDA00026392 /* AViewController.m */,
 				B014E7D221EDEFDA00026392 /* Main.storyboard */,
 				B014E7D521EDEFDA00026392 /* Assets.xcassets */,
 				B014E7D721EDEFDA00026392 /* LaunchScreen.storyboard */,
@@ -156,9 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0C31D5821EF269800BA26BB /* Target_A.m in Sources */,
-				B014E7D121EDEFDA00026392 /* ViewController.m in Sources */,
+				B014E7D121EDEFDA00026392 /* AViewController.m in Sources */,
 				B014E7DC21EDEFDA00026392 /* main.m in Sources */,
-				B014E7CE21EDEFDA00026392 /* AppDelegate.m in Sources */,
+				B014E7CE21EDEFDA00026392 /* AAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

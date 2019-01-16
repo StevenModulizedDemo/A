@@ -6,13 +6,13 @@
 //  Copyright © 2019年 steven. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "AAppDelegate.h"
 
-@interface AppDelegate ()
+@interface AAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation AAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
